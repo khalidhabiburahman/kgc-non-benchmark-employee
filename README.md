@@ -37,7 +37,7 @@ To reproduce the experiments conducted in this research, follow the steps outlin
 The raw employee data in tabular format serves as the initial input for the experiments.
 
 ### 2. Preprocess Raw Employee Data
-Preprocessing of the raw employee data is performed using the ![`raw_tsel_preprocess.ipynb`](raw_tsel_preprocess.ipynb) notebook.
+Preprocessing of the raw employee data is performed using the [`raw_tsel_preprocess.ipynb`](raw_tsel_preprocess.ipynb) notebook.
 
 ### 3. Construct Knowledge Graph
 The construction of the knowledge graph involves the use of OntoText Refine. Download the tool and import the project file `kg_tsel_emp.openrefine.tar.gz` to observe the process of constructing the knowledge graph.
