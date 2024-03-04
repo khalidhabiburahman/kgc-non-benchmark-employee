@@ -6,21 +6,23 @@ This repository hosts the code and data for the paper titled "Beyond Benchmarks:
 
 ## Installation
 
-To run the Python program associated with this repository, ensure you have Python installed on your system. Then, follow these steps:
+To run the Python program associated with this repository, follow these steps:
 
-1. Clone this repository to your local machine:
+1. Choose a directory on your local machine where you want to store the repository.
 
-    ```bash
-    git clone https://github.com/your-username/your-repository.git
-    ```
-
-2. Navigate to the cloned repository directory:
+2. Clone this repository to your chosen directory using the following command:
 
     ```bash
-    cd your-repository
+    git clone https://github.com/khalidhabiburahman/kgc-non-benchmark-employee.git
     ```
 
-3. Install the required Python libraries listed in the `requirements.txt` file using pip:
+3. Navigate to the cloned repository directory in your command prompt/terminal/local machine. For example, if you have cloned the repository into a folder named `my-project`, you can navigate to it using the `cd` command:
+
+    ```bash
+    cd path/to/my-project
+    ```
+
+4. Once you are in the repository directory, install the required Python libraries listed in the `requirements.txt` file using pip:
 
     ```bash
     pip install -r requirements.txt
