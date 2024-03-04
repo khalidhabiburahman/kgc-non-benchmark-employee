@@ -34,18 +34,18 @@ This command will install all the necessary dependencies, including pandas, nump
 To reproduce the experiments conducted in this research, follow the steps outlined below:
 
 ### 1. Raw Employee Data in Tabular Format
-The raw employee data in tabular format serves as the initial input for the experiments.
+The raw employee data in tabular format serves as the initial input for the experiments. This file can be found in the folder [`Dataset/raw_tsel/diffbot-tsel-emp-export.csv`](Dataset/raw_tsel/diffbot-tsel-emp-export.csv). 
 
 ### 2. Preprocess Raw Employee Data
 Preprocessing of the raw employee data is performed using the [`raw_tsel_preprocess.ipynb`](raw_tsel_preprocess.ipynb) notebook.
 
 ### 3. Construct Knowledge Graph
-The construction of the knowledge graph involves the use of OntoText Refine. Download the tool and import the project file `kg_tsel_emp.openrefine.tar.gz` to observe the process of constructing the knowledge graph.
+The construction of the knowledge graph involves the use of OntoText Refine. Download the tool and import the project file [`kg_tsel_emp.openrefine.tar.gz`](kg_tsel_emp.openrefine.tar.gz) to observe the process of constructing the knowledge graph.
 
 ### 4. Preprocess KG Employee Data
-Further preprocessing of the knowledge graph employee data is carried out using the `kg_tsel_preprocess.ipynb` notebook.
+Further preprocessing of the knowledge graph employee data is carried out using the [`kg_tsel_preprocess.ipynb`](kg_tsel_preprocess.ipynb) notebook.
 
 ### 5. Training, Testing, and Validation Model
-Training, testing, and validation of the model are conducted using the `kgc_tsel.ipynb` notebook. All these processes are encapsulated within a single notebook as the PyKEEN Pipeline is utilized for seamless execution.
+Training, testing, and validation of the model are conducted using the [`kgc_tsel.ipynb`](kgc_tsel.ipynb) notebook. All these processes are encapsulated within a single notebook as the PyKEEN Pipeline is utilized for seamless execution.
 
 By following these steps and executing the provided notebooks, you can replicate the experiments and analyze the results of the research.
