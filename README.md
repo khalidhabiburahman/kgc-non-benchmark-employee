@@ -53,6 +53,8 @@ By following these steps and executing the provided notebooks, you can replicate
 ## Citation
 If you use this package for published work, please cite the paper. Here is the BibTeX:
 
-'Yet to be published'
+```bash
+Yet to be published
+```
 
 ## License
