@@ -50,6 +50,8 @@ Training, testing, and validation of the model are conducted using the [`kgc_tse
 
 By following these steps and executing the provided notebooks, you can replicate the experiments and analyze the results of the research.
 
+**Please note that this experiment utilizes Google Colab, which may require mounting to Google Drive for accessing the datasets. If this is not necessary for your setup, feel free to skip the code snippet related to mounting the drive.**
+
 ## Citation
 If you use this package for published work, please cite the paper. Here is the BibTeX:
 
