@@ -49,3 +49,10 @@ Further preprocessing of the knowledge graph employee data is carried out using 
 Training, testing, and validation of the model are conducted using the [`kgc_tsel.ipynb`](kgc_tsel.ipynb) notebook. All these processes are encapsulated within a single notebook as the PyKEEN Pipeline is utilized for seamless execution.
 
 By following these steps and executing the provided notebooks, you can replicate the experiments and analyze the results of the research.
+
+## Citation
+If you use this package for published work, please cite the paper. Here is the BibTeX:
+
+'Yet to be published'
+
+## License
